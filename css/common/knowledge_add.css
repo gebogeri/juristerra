@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.detail-box .detail-bottom > .clear > .fl {
+  width: 100px;
+}
+
+.detail-box .detail-bottom > .clear > .fl dt {
+  width: 40px;
+  float:left;
+}
+.detail-box .detail-bottom > .clear > .fl dd {
+  width: 50px;
+  margin: 0;
+  white-space: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.detail-box .detail-bottom > .clear > .fr dt {
+  width: 40px;
+  color: #bbb;
+  float:left;
+  font-size:12px;
+  padding-top:5px;
+}
+.detail-box .detail-bottom > .clear > .fr dd {
+  width: 300px;
+  margin: 0;
+  white-space: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font-size:12px;
+  padding-top:5px;
+}
+
+.detail-box .detail-bottom > .clear > .fr {
+  width: 400px;
+}
+.detail-box .detail-bottom > .clear:before {
+  content: "";
+  background: #ffffff;
+}
+
+.detail-box .detail-bottom > .monograph_second{
+	border-top:1px solid #cccccc;
+	margin-top:15px;
+	padding-top:15px;
+}
+.detail-box .detail-bottom > .monograph_second > .fl {
+  width:120px;
+  margin-right:30px;
+}
+.detail-box .detail-bottom > .monograph_second > .fl p{
+  font-size: 8px!important;
+  line-height: 14px;
+}
+.detail-box .detail-bottom > .monograph_second > .fr {
+  width: 170px;
+}
+.detail-box .detail-bottom > .monograph_second > .fl .txt_gray {
+  font-size: 8px!important;
+  line-height: 14px;
+}
+.detail-box .detail-bottom > .monograph_second > .fl .txt_11 {
+  line-height: 17px;
+}
+.detail-box .detail-bottom > .monograph_second > .fl .txt_11 + .txt_gray {
+  margin-top: 3px;
+}
+
+/****セミナー*****/
+.detail-box .detail-bottom > .seminar > .fl {
+  width:500px;
+  margin-right:30px;
+}
+.detail-box .detail-bottom > .seminar > .fl dd {
+  width: 400px;
+}
+/****ブログ*****/
+.detail-box .detail-bottom > .blog{
+	border-top:none;
+	margin-top:0px;
+	padding-top:0px;
+}
